@@ -1,10 +1,10 @@
 import { ArrowDownToLine, ArrowUpRight, Bell, Menu, Search } from 'lucide-react';
 import React, { useState } from 'react';
 import { MobileViewSidebar } from './MobileViewSidebar';
-import { Main } from './Main';
+
 import Chart from "react-apexcharts";
 
-export const Sidebar = () => {
+export const Home = () => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 //   const [isItemOpen, setIsItemOpen] = useState(false);
 
