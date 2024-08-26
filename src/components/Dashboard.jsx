@@ -81,11 +81,11 @@ export const Dashboard = () => {
       });
       
   return (
-    <div className='mt-6 ml-6 grid grid-cols-12 gap-6'>
+    <div className='mt-6 ml-6 grid grid-cols-12 gap-6 h-fit'>
     {/* Quick links section */}
-    <div className='border-2 rounded-xl xl:col-span-8 md:col-span-12 sm:col-span-12 col-span-12 p-3 h-fit'>
+    <div className='border-2 rounded-xl lg:col-span-8 md:col-span-7 sm:col-span-12 xs:col-span-12 col-span-12 p-3 h-fit'>
     <p>Quick Links</p>
-     <ul className='grid xl:grid-cols-7 xl:gap-y-2 md:grid-cols-11 md:gap-y-2 sm:grid-cols-9 sm:gap-y-2 grid-cols-6 gap-y-2 w-full mt-6'>
+     <ul className='grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 gap-y-2 w-full mt-6'>
     <li>
     <svg width="101" height="73" viewBox="0 0 101 73" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="0.5" y="0.5" width="100" height="72" rx="7.5" fill="#FCFCFD"/>
@@ -179,7 +179,7 @@ export const Dashboard = () => {
     </div>
 
       {/* 1st trading section */}
-    <div className='border-2 col-span-4 bg-white p-4 h-fit space-y-4 rounded-2xl'>
+    <div className='border-2 lg:col-span-4 md:col-span-5 sm:col-span-12 xs:col-span-12 col-span-12 bg-white p-4 h-fit space-y-4 rounded-2xl'>
       <p className='font-semibold'>Trading Accounts</p>
       
       <div className='flex flex-col space-y-5'>
@@ -187,7 +187,7 @@ export const Dashboard = () => {
         <div className='border-2 px-4 py-5 rounded-2xl space-y-3'>
       <p className='font-bold text-sm'>Masater Account</p>
       <div className='flex items-center gap-3 font-semibold text-sm'>
-        <p className='border px-2 rounded-full bg-[#F2F4F7]'>CTrader</p>
+        <p className='border px-2 rounded-full bg-[rgb(242,244,247)]'>CTrader</p>
         <p className='text-[#959CAA]'>#273728</p>
       </div>
       <div className='flex items-center justify-between'>
@@ -214,7 +214,7 @@ export const Dashboard = () => {
       </div>
   </div>
 
-  <div className='border-2 rounded-2xl col-span-8 xl:-mt-44 px-3 py-4'>
+  <div className='border-2 rounded-2xl lg:col-span-8 lg:-mt-44 md:col-span-7 sm:col-span-12 xs:col-span-12 col-span-12 px-3 py-4'>
     <div className='flex justify-between'>
       <p className='font-semibold'>Overview</p>
       <div className='flex items-center gap-3'>
@@ -239,7 +239,8 @@ export const Dashboard = () => {
     />
     </div>
   </div>
-  <div className='border-2 xl:col-span-4 col-span-4 md:-mt-36 sm:-mt-36 xl:-mt-0 -mt-36 bg-white p-4 space-y-4 rounded-2xl'>
+
+  <div className='border-2 lg:col-span-4 md:col-span-5 sm:col-span-12 xs:col-span-12 col-span-12 bg-white p-4 space-y-4 rounded-2xl'>
       <p className='font-semibold'>Open Trades</p>
       
       <div className='border-2 p-3 rounded-2xl space-y-2'>

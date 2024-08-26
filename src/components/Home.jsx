@@ -32,7 +32,7 @@ export const Home = () => {
         <DesktopSidebar/>
 
       {/* main section */}
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-full h-fit'>
 
           {/* header section */}
           <Header/>
