@@ -19,12 +19,12 @@ export const Home = () => {
     <>
       <div className={`flex h-screen bg-white ${isSideMenuOpen ? 'overflow-hidden' : ''}`}>
         {/* Hamburger Menu for Mobile */}
-        <div className="md:hidden p-4 h-fit bg-[#9B76D6]">
+        <div className="md:hidden mt-7">
           <button
             className="text-white focus:outline-none"
             onClick={toggleSideMenu}
           >
-            <Menu className='text-white'/>
+            <Menu className='text-black'/>
           </button>
         </div>
 
